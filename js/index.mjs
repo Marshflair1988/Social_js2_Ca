@@ -1,5 +1,6 @@
 import { setRegisterFormListener } from "./handlers/register.mjs";
 import { setLoginFormListener } from "./handlers/login.mjs";
+import * as post from "./api/posts/index.mjs";
 
 
 const path = location.pathname;
@@ -10,6 +11,12 @@ if (path === '/profile/login.html') {
     setRegisterFormListener();
 }
 
-// import * as constants from "./api/constants.mjs";
 
-// console.log(constants.API_SOCIAL_URL);
+//post.createPost()
+//post.updatePost()
+//post.removePost()
+//post.getPost()
+post.getPost(6825).then(console.log);
+    
+
+
