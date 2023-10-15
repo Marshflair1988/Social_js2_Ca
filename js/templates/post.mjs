@@ -1,8 +1,8 @@
-export function postTemplateA(postData) {
-    return `<div class="post">${postData.title}</div>`;
-}
+//export function postTemplateA(postData) {
+    //return `<div class="post">${postData.title}</div>`;
+//}
 
-export function Templates(postData) {
+export function postTemplateB(postData) {
     const post = document.createElement("div");
     post.classList.add("post");
     post.innerText = postData.title;
@@ -12,6 +12,11 @@ export function Templates(postData) {
     export function renderPostTemplate(postData, parent) {
     //parent.innerHTML = postTemplate(postData);
 
-    parent.append(postTemplateB(postData))
+    parent.append(postTemplateB(postData));
 }
 
+export function renderPostTemplates(postDataList, parent) {
+    const postHTMLElements = postDataList.map(postTemplateB)
+
+
+}

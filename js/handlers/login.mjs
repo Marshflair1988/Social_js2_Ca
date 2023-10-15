@@ -10,18 +10,14 @@ export function setLoginFormListener() {
 			const formData = new FormData(form);
 			const profile = Object.fromEntries(formData.entries());
 
-			console.log(profile);
+			login(profile);
 
 			//Send it to the API
 			try {
 				const response = await login(profile);
-				console.log(response);
-				// get token from response and save in storage
-				// redirect to some page
 			} 
 			catch(error) {
-				console.log(error);
-				// the error in the html
+				
 				document.querySelector("#message").innerHTML = error.message;
 			}
 		});
