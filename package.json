@@ -1,0 +1,29 @@
+{
+  "name": "social_js2_ca",
+  "version": "0.0.1",
+  "description": "A Social media platform fetching data from an API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Marshflair1988/Social_js2_Ca.git"
+  },
+  "keywords": [
+    "CSS",
+    "frameworks",
+    "js",
+    "bootstrap",
+    "sass"
+  ],
+  "author": "Marsh Woolgar (marshwoolgar@gmail.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Marshflair1988/Social_js2_Ca/issues"
+  },
+  "homepage": "https://github.com/Marshflair1988/Social_js2_Ca#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.2"
+  }
+}
