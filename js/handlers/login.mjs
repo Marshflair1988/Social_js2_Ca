@@ -18,7 +18,8 @@ export function setLoginFormListener() {
 				console.log(response);
 				// get token from response and save in storage
 				// redirect to some page
-			} catch (error) {
+			} 
+			catch(error) {
 				console.log(error);
 				// the error in the html
 				document.querySelector("#message").innerHTML = error.message;
