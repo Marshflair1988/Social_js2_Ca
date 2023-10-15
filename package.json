@@ -25,5 +25,8 @@
   "homepage": "https://github.com/Marshflair1988/Social_js2_Ca#readme",
   "dependencies": {
     "bootstrap": "^5.3.2"
+  },
+  "devDependencies": {
+    "sass": "^1.69.3"
   }
 }
