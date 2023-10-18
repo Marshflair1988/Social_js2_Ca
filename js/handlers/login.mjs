@@ -12,7 +12,6 @@ export function setLoginFormListener() {
 
 			login(profile);
 
-			//Send it to the API
 			try {
 				const response = await login(profile);
 			} 

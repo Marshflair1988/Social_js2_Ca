@@ -15,13 +15,14 @@ if (path === '/profile/login.html') {
     listeners.setUpdatePostListener();
 }
 
-/*async function testTemplate() {
+async function testTemplate() {
     const posts = await postMethods.getPosts();
     const container = document.querySelector("#post");
     templates.renderPostTemplates(posts, container)
     
 }
 
+testTemplate();
 
 
 /*async function testTemplate() {
@@ -34,5 +35,3 @@ if (path === '/profile/login.html') {
     console.log(posts)
     
 }*/
-
-testTemplate(); 

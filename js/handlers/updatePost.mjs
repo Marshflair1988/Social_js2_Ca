@@ -13,6 +13,7 @@ export function setUpdatePostListener() {
 			const formData = new FormData(form);
 			const post = Object.fromEntries(formData.entries());
             post.id = id;
+			console.log(post)
 
 			updatePost(post);
 		});
